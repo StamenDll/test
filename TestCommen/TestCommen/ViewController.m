@@ -57,6 +57,8 @@
     
     [self sendRequest:1 andPath:GETURLLIST andSqlParameter:@{@"authtype":@"2",@"username":@"008",@"password":@"008"} and:self];
     
+    NSLog(@"呵呵");
+    
 }
 
 - (void)onclick:(UIButton*)btn{
